@@ -1,21 +1,20 @@
 {
     "name": "neuralpin/temporalrender",
+    "type": "library",
     "description": "Helper for rendering php templates",
-    "keywords": ["neuralpin", "phphelper"],
+    "keywords": ["helper"],
     "license": "GPL-3.0-only",
     "authors": [
         {
             "name": "Ulises Rendón",
-            "email": "fdulises@outlook.com"
+            "email": "fdulises@outlook.com",
+            "homepage": "https://neuralpin.com",
+            "role": "Developer"
         }
     ],
-    "require": {
-        "php": "^8.0.0"
-    },
     "autoload": {
         "psr-4": {
             "Neuralpin\\temporalRender\\": "src/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
