@@ -1,6 +1,6 @@
 <?php
 
-namespace Neuralpin\temporalrender;
+namespace Neuralpin\temporalRender;
 
 class htmlRender{
     private string $html;
