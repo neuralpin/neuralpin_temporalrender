@@ -1,6 +1,6 @@
 <?php
 
-namespace Neuralpin\temporalRender;
+namespace neuralpin\temporalrender;
 
 class htmlRender{
     private string $html;
@@ -12,6 +12,8 @@ class htmlRender{
             require $filepath;
             $this->html = ob_get_contents();
             ob_end_clean();
+        }else{
+            throw new \Exception("File not found: " . $filepath);
         }
     }
 

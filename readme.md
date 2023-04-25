@@ -1,7 +1,5 @@
 # neuralpin\temporalrender:
-
-## Description:
-PHP helper for php template system.
+Module for a php template system.
 [Github Repo](https://github.com/neuralpin/neuralpin_temporalrender)
 
 ## How to use
