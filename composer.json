@@ -14,7 +14,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Neuralpin\\temporalRender\\": "src/"
+            "neuralpin\\temporalrender\\": "src/"
         }
     }
 }

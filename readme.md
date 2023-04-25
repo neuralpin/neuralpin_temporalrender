@@ -1,4 +1,4 @@
-# neuralpin\temporalRender:
+# neuralpin\temporalrender:
 
 ## Description:
 PHP helper for php template system.
@@ -34,7 +34,7 @@ content of test_menu.php file
 
 code for main.php file
 ```php
-use Neuralpin\temporalRender\htmlRender;
+use neuralpin\temporalrender\htmlRender;
 
 $html_full = new htmlRender('test.php', [
     'title' => 'Lorem ipsum dolor',
